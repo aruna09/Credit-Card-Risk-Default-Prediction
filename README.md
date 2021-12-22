@@ -1,7 +1,7 @@
 # Credit-Card-Risk-Default-Prediction ☜(ﾟヮﾟ☜)
 
 ## Problem Statement👩‍🏫
-Given a list of features from a song/music, classify it as any one of the target categories.
+A classic Regression problem of identifying whether an individual will be able to repay loan based on different features.
 
 ## Tools used ⚙
 
@@ -30,26 +30,25 @@ A little observation reveals pretty straight forward float features and a couple
 ### Visualization📊: 
 Time for some cool graphs!
 
-![image](https://user-images.githubusercontent.com/25157152/146930853-46c6e3e7-4509-4abd-8340-349c94373d1c.png)
+![image](https://user-images.githubusercontent.com/25157152/147049259-0bcf5f05-9dd1-43fd-91bc-1f0bdc0782e0.png)    
 
+![image](https://user-images.githubusercontent.com/25157152/147049343-13076e87-7608-40d2-a3a9-f34fff73fa49.png)
 
 ### Actual Coding begins👩‍💻: 
 
 1. Drop **insignificant columns** like (any kind of id's or names)
 2. Check for **null values/special characters** that will need trasformation
+3. **Preprocessing**:
     
-   ![image](https://user-images.githubusercontent.com/25157152/146929714-531352f9-8326-4bde-8d97-b017f28527ab.png)
-         
- 3. **Preprocessing**:
-    
-![image](https://user-images.githubusercontent.com/25157152/146932941-88b3e974-95ab-4f54-999b-9002a8d9bf2f.png)
- 
- 
-![image](https://user-images.githubusercontent.com/25157152/146932995-0a7c9a9f-c7fc-45d4-91ae-9dc3e7fe09a9.png)
+![image](https://user-images.githubusercontent.com/25157152/147049586-4d6cf72b-c4f3-4316-ab6d-86959effcf5f.png)
 
+![image](https://user-images.githubusercontent.com/25157152/147049625-35f01b01-a1aa-4701-a8b1-10975da15595.png)
 
-![image](https://user-images.githubusercontent.com/25157152/146933076-264f9799-4450-4d6e-86ec-b7ed479a7463.png)
+![image](https://user-images.githubusercontent.com/25157152/147049683-926b415e-f025-4a48-8ef8-9812cfb16a54.png)
 
+![image](https://user-images.githubusercontent.com/25157152/147049727-8eeb4fc7-cffb-496d-a635-1fcdc9eebc65.png)
+
+4. Dealing with Class Imbalance 
 ### Model Building👩‍🏫
 
 This is where we start building our classifiers which will be trained on this super clean data!
